@@ -8,11 +8,6 @@ namespace EvaluerSonTheCestSharp
 {
     class Program
     {
-        public static int fact(int i) {
-            if (i > 1) return i * fact(i-1);
-            else return 1;
-        }
-
         static void Main(string[] args)
         {
             The the = new The();
